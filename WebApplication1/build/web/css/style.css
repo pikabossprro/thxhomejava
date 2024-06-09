@@ -1,0 +1,68 @@
+
+body{
+    background: #eee;
+    
+}
+
+#side_nav{
+    background:#ff1717;
+    min-width: 250px ;
+    max-width: 250px;
+    transition: all 0.3s  ;
+    
+}
+.content{
+    min-height:100vh; 
+    width: 100%;
+}
+.sidebar ul li {
+    cursor: pointer;
+}
+.sidebar li.active{
+    background : #eee ;
+    border-radius:4px;
+    
+}
+.sidebar li.active ul{
+    background:#ff1717;
+    
+    
+}
+.sidebar li.active ul div{
+     color : #eee ;
+    
+}
+.sidebar li.active ul div:hover{
+    color:#000;
+    
+}
+
+
+.sidebar li.active a , .sidebar li.active a:hover {
+    color:#000;
+    
+}
+.sidebar li a{
+    color : #fff;
+    
+}
+
+.rounded-full {
+    border-radius:100%
+       
+}
+
+
+@media(max-width:768px){
+    #side_nav{
+        margin-left: -250px;
+        position: fixed;
+        min-height:100vh;
+        z-index: 1;
+        
+    }
+    #side_nav.active{
+        margin-left: 0;
+        
+    }
+}

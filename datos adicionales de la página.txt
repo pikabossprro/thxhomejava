@@ -1,0 +1,22 @@
+COLORES:
+cabecera de la página: #398439
+botones: #4CAF50
+fondo: #FFFFFF
+
+
+Categorias de la página:
+
+Ocasiones Especiales:
+Cumpleaños, Aniversario, Graduación y Nacimiento.
+
+Tipos de Plantas:
+Flores Anuales, Suculentas, Cactus, Bambu, Orquideas, etc.
+
+Arreglos por Estilo:
+Bouquets, Centros de Mesa, Cestas de Flores.
+
+Eventos Especiales:
+Bodas, Funerales, Eventos Corporativos.
+
+Colecciones Especiales:
+Coleccion de Temporada y Coleccion de Lujo.
